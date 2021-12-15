@@ -21,7 +21,7 @@ saving_calculator = driver.find_element_by_css_selector('a[data-et-has-event-alr
 saving_calculator.click()
 
 time.sleep(5)
-driver.switch_to_window(driver.window_handles[1])                              ## That are used to connect tabs & windows !!!
+driver.switch_to.window(driver.window_handles[1])                              ## That are used to connect tabs & windows !!!
 body = driver.find_element_by_xpath('/html/body')
 body.send_keys(Keys.PAGE_DOWN)
 body.send_keys(Keys.PAGE_DOWN)
